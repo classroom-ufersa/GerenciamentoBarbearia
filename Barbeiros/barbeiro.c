@@ -3,8 +3,14 @@
 #include <string.h>
 #include "barbearia.h"
 
+struct Especialidade{
+    int corte;
+    int barba;
+    int ambos;
+};
 struct barbeiro{
     char nome[50];
-    char Especialidade;
-    
+    struct Especialidade corte;
+    struct cliente nome;
+
 };
