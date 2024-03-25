@@ -1,3 +1,3 @@
-typedef struct barbeiro Barbeiro;
+typedef struct Barbeiro Barbeiro;
 
-typedef struct especialidade Especialidade;
+typedef struct Especialidade Especialidade;
